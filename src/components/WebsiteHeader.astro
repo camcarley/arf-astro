@@ -1,0 +1,59 @@
+---
+const whatWeDo = [
+	"Messy Book Program",
+	"Youth Leadership Development and Training",
+	"Christmas Food Bank",
+	"ᑲᒪᔩᑦ (Kamajiit) Program"
+]
+
+const whoWeAre = [
+	"Who we are",
+	"Our Founder",
+	"Our Board",
+	"Contact Us"
+]
+---
+
+<header class="h-5 justify-center px-5 py-5">
+	<nav class="flex fixed justify-center w-screen">
+		<!-- Left Navigation -->
+		<div class="flex-2 flex justify-center">
+			<!--TODO: dropdownify -->
+			<select class="bg-white text-wrap mx-4">
+				<option default>Who We Are</option>
+				<option>Our Founder</option>
+				<option>Our Board</option>
+				<option>Contact Us</option>
+			</select>
+			<a class="mx-4">Life in the north</a>
+			<select class="bg-white text-wrap mx-4 w-13">
+				<option default>What We Do</option>
+				<option>Messy Book Program</option>
+				<option>Youth Leadership Development and Training</option>
+				<option>Christmas Food Bank</option>
+				<option>ᑲᒪᔩᑦ (Kamajiit) Program</option>
+			</select>
+			<a class="mx-4">Gallery</a>
+		</div>
+		<!-- Logo -->
+		<div class="align-top">
+			<img
+			id="header-img"
+			src="../../public/assets/header/logo-wide2x.png"
+			/>
+		</div>
+		<!-- Right Navigation -->
+		<div class="flex-2 flex justify-center">
+			<a class="mx-4">Our Champions</a>
+			<a class="mx-4">2022 Humanitarian Award</a>
+			<a class="mx-4">Contact Us</a>
+		</div>
+	</nav>
+</header>
+<style>
+
+	#header-img {
+		width: 65%;
+		height: auto;
+	}
+</style>
